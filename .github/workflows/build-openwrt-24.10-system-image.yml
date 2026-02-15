@@ -9,7 +9,16 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
-      source_branch: immortalwrt_openwrt-24.10
+      source_branch:
+        description: "Select the source branch"
+        required: false
+        default: "immortalwrt_openwrt-24.10"
+        type: choice
+        options:
+          - openwrt_main
+          - immortalwrt_master
+          - immortalwrt_openwrt-24.10
+          - lede_master
       openwrt_board:
         description: "Select device board"
         required: false
@@ -305,4 +314,5 @@ jobs:
             ### Applicable platform
             - 🐧 `arm64`
             - 🐋 Docker image: https://hub.docker.com/u/ophub
+
 

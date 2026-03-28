@@ -45,6 +45,7 @@ on:
           - a311d-oes_s922x-oes-plus_wxy-oect
           - nsy-g16-plus_nsy-g68-plus_bdy-g18-pro
           - s905d_s905x3_s912_s922x-ct2000
+          - s905d_s912
           - a311d
           - a311d-oes
           - alark35-3500
@@ -246,6 +247,7 @@ on:
           - 6.1.y
           - 6.6.y
           - 6.12.y
+          - 6.12.74
           - 6.18.y
           - 5.10.y_5.15.y
           - 6.1.y_6.6.y
